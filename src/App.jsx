@@ -175,7 +175,7 @@ function App() {
                 rel="noreferrer"
                 target="_blank"
               >
-                <MessageCircle className="h-4 w-4" />
+                <FaWhatsapp className="relative h-6 w-6" />
                 WhatsApp
               </a>
             </div>
@@ -227,7 +227,7 @@ function App() {
                         rel="noreferrer"
                         target="_blank"
                       >
-                        <MessageCircle className="h-4 w-4" />
+                        <FaWhatsapp className="relative h-6 w-6" />
                         WhatsApp
                       </a>
                     </div>
@@ -317,7 +317,7 @@ function App() {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <MessageCircle className="h-4 w-4" />
+                    <FaWhatsapp className="relative h-6 w-6" />
                     WhatsApp
                   </a>
                   <a className="btn-secondary" href="#products">
