@@ -29,6 +29,7 @@ import {
   Truck,
   X,
 } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import AnimatedCounter from "./components/AnimatedCounter";
 import Reveal from "./components/Reveal";
 import SectionTitle from "./components/SectionTitle";
@@ -853,7 +854,7 @@ function App() {
 
         <motion.a
           aria-label="Chat on WhatsApp"
-          className="fixed bottom-6 right-6 z-50 inline-flex h-16 w-16 items-center justify-center rounded-full border border-amber-200/20 bg-gradient-to-br from-amber-400 to-orange-500 text-stone-950 shadow-glow"
+          className="fixed bottom-6 right-6 z-50 inline-flex h-16 w-16 items-center justify-center rounded-full border border-green-200/20 bg-gradient-to-br from-green-400 to-green-500 text-white shadow-glow"
           href="https://wa.me/+919315649439"
           rel="noreferrer"
           target="_blank"
@@ -861,7 +862,7 @@ function App() {
           whileTap={{ scale: 0.96 }}
         >
           <span className="absolute inset-0 rounded-full animate-pulse-glow" />
-          <MessageCircle className="relative h-7 w-7" />
+          <FaWhatsapp className="relative h-7 w-7" />
         </motion.a>
       </div>
     </LazyMotion>
